@@ -1,0 +1,40 @@
+# Maven output and compiled Java classes
+target/
+*.class
+
+# IDE metadata
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.code-workspace
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+.aws/
+settings.xml
+settings-security.xml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# Keep AI evidence eligible for version control: do not ignore ai/, .codex/,
+# .claude/, JSON/JSONL records, AGENTS.md, or AI_REFLECTION.md.
+# Review evidence for sensitive information before staging it.
+
+# Original assessment instructions — retained locally
+/BE Coding Test 2026.pdf
+# Original assessment PDF - retained locally
+/BE Coding Test 2026.pdf
