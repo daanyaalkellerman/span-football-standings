@@ -33,8 +33,8 @@ The VS Code Chat Export command produced an empty GitHub Copilot export, so it w
 - **Session files:** 2 genuine Codex JSONL files.
 - **JSONL validation:** 0 invalid records reported during the PowerShell validation.
 - **Original records:** Preserved privately outside the repository.
-- **Privacy inspection:** Initial review completed.
-- **Public GitHub publication:** Not yet performed.
+- **Privacy inspection:** The user confirms that both redacted session copies were manually reviewed for privacy before publication.
+- **Public GitHub publication:** Completed. The repository is public; the reviewed implementation commit is `99d94e3`.
 
 These counts reflect the checks performed during preparation. They do not independently establish that every interaction throughout the assessment is represented.
 
@@ -88,8 +88,8 @@ These searches were limited to the specified patterns and do not guarantee the a
 
 The initial session relevance and privacy inspections have been completed. However, the records have not been independently audited for exhaustive completeness, and encrypted payload contents have not been verified.
 
-Final public-release clearance remains subject to a review of the exact repository contents before publication.
+The repository has been published following the user's manual privacy review of the two redacted session copies. Publication and privacy review do not establish substantive completeness of the exported conversations or SPAN's acceptance of the proposed artefact mapping.
 
 The Codex-to-Claude artefact mapping is proposed under the assessment's allowance for alternative AI assistants. **Recruiter acceptance remains pending.**
 
-No files were staged, committed, pushed or published as part of this documentation review.
+Historical note from the original documentation review: “No files were staged, committed, pushed or published as part of this documentation review.” Subsequent publication is recorded in section 4 above.

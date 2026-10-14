@@ -128,7 +128,7 @@ OpenAI Codex was the only AI coding assistant used. The assessment PDF permits e
 | Requested category/example | Actual Codex equivalent and status |
 |---|---|
 | `CLAUDE.md`: project instructions | [AGENTS.md](AGENTS.md), the project's Codex instructions. |
-| `.claude/`: session data | Two genuine Codex JSONL session copies are currently included in `ai/codex-sessions/`. Initial privacy inspection and redaction of personal Windows paths/usernames have been completed. Final evidence completeness and publication clearance remain pending. |
+| `.claude/`: session data | Two redacted Codex JSONL session copies are committed in `ai/codex-sessions/`. The user manually reviewed both copies for privacy before publication. Their substantive completeness has not been independently verified. |
 | `ai/`: conversation history | The genuine JSONL copies under `ai/` also serve as conversation exports. No separate readable export is currently present. |
 | `AI_REFLECTION.md`: reflection | [AI_REFLECTION.md](AI_REFLECTION.md), my completed personal reflection on using Codex, choosing Java, historical rules and testing. |
 | `README.md`: setup and evidence explanation | This document describes commands, conventions, the mapping and evidence process. |
@@ -137,4 +137,4 @@ Two genuine Codex JSONL session files are currently included in `ai/codex-sessio
 
 The session preservation process and redaction details are documented in [ai/SESSION_EXPORT_NOTES.md](ai/SESSION_EXPORT_NOTES.md). My completed reflection is available in [AI_REFLECTION.md](AI_REFLECTION.md).
 
-The initial privacy inspection is complete, but final evidence completeness and public-release clearance remain pending. Recruiter acceptance of the proposed Codex artefact mapping also remains pending.
+The repository is public, and the reviewed implementation commit is `99d94e3`. The user confirms that both redacted Codex session copies were manually reviewed for privacy before publication. This review does not establish substantive completeness of the conversation evidence, which has not been independently verified. SPAN has not confirmed acceptance of the proposed Codex-to-Claude artefact mapping.

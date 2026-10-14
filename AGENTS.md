@@ -34,6 +34,8 @@
 - Do not stage, commit, push, or publish without the user's explicit approval. Approval for one action does not imply approval for the others.
 - Do not expose secrets or personal information in explanations, logs, or shared artefacts.
 
-## Current phase
+## Initial setup phase — historical instruction
+
+The restriction below records the original setup task and is preserved as collaboration history. Subsequent user requests authorised later implementation and review phases. Current work must follow the user's latest explicit scope and the repository-safety rules above.
 
 - Only the root AGENTS.md is authorized for creation in this setup task. Do not create Java source code, Maven files, or other project artefacts until the user requests the next phase.

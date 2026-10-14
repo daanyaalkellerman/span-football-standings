@@ -1,6 +1,23 @@
 # SPAN Digital Backend Coding Test 2026 — Requirements Checklist
 
-## Evidence, scope, and status
+## Submission status — As of 14 October 2026
+
+The project has been committed and pushed to the public repository:
+https://github.com/daanyaalkellerman/span-football-standings
+
+The reviewed implementation commit is `99d94e3`. It includes the Java source, automated tests, Maven configuration, input/output CSV files, README, `AI_REFLECTION.md`, `AGENTS.md`, and two redacted Codex session exports.
+
+The user confirms that both redacted session exports were manually reviewed for privacy before publication. This does not establish substantive completeness of the exported conversations; that completeness has not been independently verified. The proposed Codex-to-Claude artefact mapping has not been confirmed as accepted by SPAN.
+
+The completed read-only audit inspected the repository and independently recalculated the supplied standings. It did not execute Maven or Java or inspect the JSONL contents. Existing test results remain reports from earlier verification. Clean-checkout and macOS/Linux execution remain unverified.
+
+Repository publication does not establish delivery of the URL to the recruiter or on-time submission; neither is confirmed here.
+
+## Historical requirements and review record — 13 October 2026
+
+The remaining sections preserve earlier requirements analysis and stage-specific status notes. Statements about no commits, a missing reflection, pending publication/privacy review, and next-step authorisations describe those earlier stages. The submission status above supersedes those statements as the current account. Historical checkboxes are retained and are not a final submission checklist.
+
+### Evidence, scope, and status
 
 Analysis date: 2026-10-13. This document records requirements and proposed verification; it does not certify a completed assessment.
 
